@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact · Our School</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="academics.html">Academics</a>
+    <a href="admissions.html">Admissions</a>
+    <a href="news.html">News</a>
+    <a href="contact.html" aria-current="page">Contact</a>
+  </nav>
+
+  <main>
+    <h1>Contact Us</h1>
+    <p>Have questions about admissions, academics, or campus life? Reach out to our school office using the details or form below.</p>
+
+    <section aria-labelledby="school-info">
+      <h2 id="school-info">School Office Details</h2>
+      <ul>
+        <li><strong>Address:</strong> 123 Education Avenue, Barangay Central, Quezon City</li>
+        <li><strong>Phone:</strong> (02) 8123-4567</li>
+        <li><strong>Email:</strong> info@ourschool.edu.ph</li>
+        <li><strong>Office Hours:</strong> Monday – Friday, 8:00 AM – 5:00 PM</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="contact-form-heading">
+      <h2 id="contact-form-heading">Send a Message</h2>
+      <form action="#" method="post">
+        <div>
+          <label for="name">Full Name</label><br>
+          <input type="text" id="name" name="name" placeholder="Juan Dela Cruz" required>
+        </div>
+        <br>
+
+        <div>
+          <label for="email">Email Address</label><br>
+          <input type="email" id="email" name="email" placeholder="juan@example.com" required>
+        </div>
+        <br>
+
+        <div>
+          <label for="topic">Department / Topic</label><br>
+          <select id="topic" name="topic">
+            <option value="general">General Inquiry</option>
+            <option value="admissions">Admissions &amp; Enrollment</option>
+            <option value="academics">Academics &amp; Registrar</option>
+            <option value="support">Student Support</option>
+          </select>
+        </div>
+        <br>
+
+        <div>
+          <label for="message">Message</label><br>
+          <textarea id="message" name="message" rows="5" placeholder="Write your question or message here..." required></textarea>
+        </div>
+        <br>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>Page by NasiEsca</footer>
+</body>
+</html>
